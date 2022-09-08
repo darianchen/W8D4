@@ -13,7 +13,7 @@ class Clock{
     }
 
     _tick(){
-        this.second += 1;
+        this.second ++;
         this.printTime();
     }
 }
